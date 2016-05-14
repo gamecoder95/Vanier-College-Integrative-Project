@@ -1,0 +1,39 @@
+.label 
+{
+    -fx-text-fill: rgb(0, 30, 44);
+}
+
+.label .text
+{
+    -fx-font-family: "BIGMACCA";
+    -fx-font-size: 16;
+}
+
+.text-field
+{
+    -fx-background-color: rgba(23, 79, 115, 0.6);
+    -fx-border-color: rgb(0, 30, 44);
+    -fx-border-width: 2;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.text-input
+{
+    -fx-text-fill: white;
+    -fx-font-family: "Control Freak";
+    -fx-font-size: 17;
+    -fx-font-weight: bold;
+}
+
+.text-field:hover
+{
+    -fx-effect: innershadow(three-pass-box, white, 3, 0.3, 0, 0);
+    -fx-text-fill: rgb(0, 30, 44);
+}
+
+.text-field:focused
+{
+    -fx-effect: dropshadow(gaussian, rgb(0, 30, 44), 3, 0.3, 0, 0);
+    -fx-text-fill: white;
+}
